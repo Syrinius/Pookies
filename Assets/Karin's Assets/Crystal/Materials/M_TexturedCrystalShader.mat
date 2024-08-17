@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_TexturedCrystalShader
+  m_Shader: {fileID: -6465566751694194690, guid: 2b4699df5e3fec24aa83337351314900, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Albedo_:
+        m_Texture: {fileID: 2800000, guid: f14a342e13f322d44bb63f323c99fa50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Emission_:
+        m_Texture: {fileID: 2800000, guid: 3a15685caf367e04c8bbe36ece868e20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Normal_:
+        m_Texture: {fileID: 2800000, guid: da6f6459068eadb44888114ea671bf32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a4efc9d5c37242c881046cb5281a499f:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_b8cf6a7d72e7492f9ded3ae648c42e2d:
+        m_Texture: {fileID: 2800000, guid: f14a342e13f322d44bb63f323c99fa50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BottomLine_: 0.36
+    - Fresnel_Size_: 0.49
+    - Fresnel_Strength_: 0.09
+    - Metallic_: 0.05
+    - Smoothness_: 0.87
+    - Vector1_35b599b1ac2c4d4d98bcb0dc934a45c0: 0.05
+    - Vector1_5ab4c18de5494fca95e8b0d72dfe1400: 0.58
+    - Vector1_ac1b58ccee4942d4946943d443373425: 0.7
+    - Vector1_c88badb889834ab5b125bd71f7f97513: 4.46
+    m_Colors:
+    - BottomColor_: {r: 0.4864068, g: 1.676551, b: 1.57306, a: 1}
+    - Color_: {r: 0.5407379, g: 1.1201, b: 7.377211, a: 1}
+    - Color_84e18c13e1a149cc990b8a3dcee20244: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
